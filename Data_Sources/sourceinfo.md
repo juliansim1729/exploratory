@@ -19,6 +19,7 @@ Sourced from https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-P
 | medcond_yn | Present of underlying comorbidity or disease | Text |
 
 \* Was renamed from 'Race and Ethnicity (Combined)' for consistency and coding reasons.
+
 \*\* Technically not binary due to the coding of Unknowns & Missings, but these were effectively ignored. 
 
 ## cov19_confirmed.csv
