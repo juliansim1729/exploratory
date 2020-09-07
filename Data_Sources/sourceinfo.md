@@ -13,12 +13,13 @@ Sourced from https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-P
 | sex | Male/Female/Unknown/Other | Text |
 | age_group | in groups of ten years | Text |
 | race\* | race & ethnicity (combined) | Text |
-| hosp_yn | hospitalization status | Text |
-| icu_yn | ICU admission status | Text |
-| death_yn | Death Status | Text |
+| hosp_yn | hospitalization status | Binary Text \*\* |
+| icu_yn | ICU admission status | Binary Text \*\* |
+| death_yn | Death Status | Binary Text \*\* |
 | medcond_yn | Present of underlying comorbidity or disease | Text |
 
-\* Was renamed from 'Race and Ethnicity (Combined)' for consistency and coding reasons
+\* Was renamed from 'Race and Ethnicity (Combined)' for consistency and coding reasons.
+\*\* Technically not binary due to the coding of Unknowns & Missings, but these were effectively ignored. 
 
 ## cov19_confirmed.csv
 Sourced from https://usafacts.org/issues/coronavirus/ on September 7th, 2020. USAFacts relies exclusively on data from government agencies and seeks to use the most recent data available - although this does not necessarily mean 'recent'. However, with coronavirus data, this data is relatively temporaneous and updated daily.
