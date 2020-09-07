@@ -1,0 +1,25 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+rm(list = ls())
+```
+
+```{r}
+# ease import and processing of datasets
+library(RCurl)
+library(readr)
+
+# hadleyverse
+library(tidyverse)
+
+# graphics
+library(ggplot2)
+library(bbplot)
+```
+
+```{r}
+cdcCovRaw <- read_csv("https://media.githubusercontent.com/media/juliansim1729/exploratory/master/Data_Sources/cov19_surveillance.csv")
+```
