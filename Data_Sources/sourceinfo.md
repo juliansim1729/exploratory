@@ -17,5 +17,6 @@ Sourced from https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-P
 | icu_yn | ICU admission status | Text |
 | death_yn | Death Status | Text |
 | medcond_yn | Present of underlying comorbidity or disease | Text |
+
 \* Was renamed from 'Race and Ethnicity (Combined)' for consistency and coding reasons
 
